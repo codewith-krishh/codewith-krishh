@@ -1,33 +1,43 @@
 # Hey, I'm Krish 👋
-I build ML pipelines that solve real business problems — currently focused on
-computer vision, NLP, and deploying models that non-technical stakeholders can use.
+
+I build LLM and ML systems that solve real business problems — currently working through
+transformer fine-tuning and heading into prompt engineering, RAG pipelines, and AI support
+tools for SaaS companies.
 
 ---
 
-## What I'm building
+## What I've built
 
 | Project | What it does | Key result |
 |---|---|---|
+| [bert-sentiment-app](https://github.com/codewith-krishh/bert-sentiment-app) | Fine-tuned bert-base-uncased on 25k IMDb reviews using HuggingFace Trainer API (TrainingArguments, DataCollatorWithPadding, compute_metrics); checkpoint scoped for 4GB VRAM | Production-ready binary sentiment classifier — exposed a WordPiece tokenization failure on SaaS domain text that a generic model misses entirely |
 | [ResNet-18-image-classifier](https://github.com/codewith-krishh/ResNet-18-image-classifier) | Transfer learning pipeline fine-tuned on cats vs. dogs using PyTorch + ResNet-18; Streamlit UI for live predictions with confidence scores | 98.14% validation accuracy in 5 epochs |
+| [pytorch-text-classifier](https://github.com/codewith-krishh/pytorch-text-classifier) | Neural text classifier (nn.Embedding → mean pooling → BCEWithLogitsLoss) benchmarked head-to-head against the TF-IDF baseline on the same dataset | Diagnosed 87% class imbalance as root cause of recall collapse — a stronger portfolio signal than a clean result |
 | [Customer-Churn-prediction](https://github.com/codewith-krishh/Customer-Churn-prediction) | End-to-end churn model on Telco dataset using sklearn Pipelines, class-weight balancing, and GridSearchCV | 78% recall on churners — optimised to catch at-risk customers, not just overall accuracy |
-| [NSE Banking Analytics](https://github.com/codewith-krishh/nse-banking-analytics) | Banking sector technical analysis + reporting | Automated Python pipeline |
 
 ---
 
 ## Current stack
 
-**ML / DL** — PyTorch · ResNet-18 · Transfer Learning · scikit-learn · Logistic Regression · Pipelines · GridSearchCV  
+**LLMs / Transformers** — BERT fine-tuning · GPT-2 architecture · HuggingFace Transformers · Trainer API · AutoModel · AutoTokenizer · BPE / WordPiece tokenization  
+**ML / DL** — PyTorch · CNNs · ResNet-18 · Transfer Learning · Neural Networks · scikit-learn · Logistic Regression · Pipelines · GridSearchCV  
 **NLP** — TF-IDF · Multinomial Naive Bayes · text preprocessing · Word2Vec (concepts)  
 **Data** — pandas · NumPy · Matplotlib · Seaborn  
-**Deploy** — Streamlit · Git · GitHub · Jupyter  
+**Deploy** — Streamlit · Google Colab (T4 GPU) · CUDA · Git · GitHub  
 
 ---
 
 ## What I'm working toward
-Actively building toward production AI tools for SaaS businesses — RAG pipelines,
-support chatbots, and workflow automation.
+
+Finishing the transformer sprint (T5 summarization, QA systems → Week 22), then moving into
+prompt engineering — OpenAI + Claude API, chain-of-thought, system prompts, and the first
+deployed LLM tools with real business use cases.
+
+After that: production RAG pipelines, vector databases, and client-ready AI support chatbots
+for SaaS companies. First client-ready demo targeted for Month 9.
 
 ---
 
 ## Let's connect
-[LinkedIn](https://linkedin.com/in/krish-manji011) · [X / Twitter](https://x.com/@Born_TechK)
+
+[LinkedIn](https://linkedin.com/in/krish-manji011) · [X / Twitter](https://x.com/Born_TechK)
