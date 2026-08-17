@@ -26,10 +26,15 @@ Currently open to AI/ML internships to build experience and hands-on production 
 ## Current stack
 
 **LLM Engineering** — Groq API (Llama models) · Prompt Engineering · Prompt Chaining · Few-shot Prompting · Structured Outputs (Pydantic) · Function Calling · LLM-as-Judge Evaluation
+
 **LLMs / Transformers** — BERT fine-tuning · BART (abstractive summarization) · RoBERTa (extractive QA) · T5 architecture · GPT-2 architecture · HuggingFace Transformers · Trainer API · AutoModel · AutoTokenizer · `pipeline()` · BPE / WordPiece tokenization
+
 **ML / DL** — PyTorch · CNNs · ResNet-18 · Transfer Learning · Neural Networks · scikit-learn · Logistic Regression · Pipelines · GridSearchCV
+
 **NLP** — extractive QA · abstractive summarization · TF-IDF · Multinomial Naive Bayes · text preprocessing · Word2Vec (concepts)
+
 **Data** — pandas · NumPy · Matplotlib · Seaborn
+
 **Deploy** — Streamlit · Streamlit Cloud · Google Colab (T4 GPU) · CUDA · Git · GitHub
 
 ---
