@@ -4,7 +4,7 @@ Engineering Sprint (Groq API, structured outputs, evaluation harnesses) after co
 full transformer fine-tuning sprint — next up: production RAG pipelines and AI support tools
 for SaaS companies.
 
-Currently open to AI/ML internships to build experience and hands-on production reps.
+Currently open to AI/ML work to build experience and hands-on production reps.
 
 ---
 
